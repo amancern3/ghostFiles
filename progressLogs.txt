@@ -1,0 +1,6 @@
+===July 31, 2022===
+
+Created init web app delployed on gcloud
+To browse: gcloud app browse
+
+
