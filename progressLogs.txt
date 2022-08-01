@@ -3,4 +3,6 @@
 Created init web app delployed on gcloud
 To browse: gcloud app browse
 
+Adding user auth -> used express-openid using auth0
 
+reconfigued auth0 callback URLs, login URL

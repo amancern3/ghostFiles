@@ -1,9 +1,17 @@
 <html>
 
 <head>
-    <title>Hi Mom!</title>
+    <script type="text/javascript" src="index.js">
+        function getStatus() {
+            var authStatus = $(window).onload(function () {
+                authStatus()
+            })
+            document.getElementById("authStatus").innerHTML = authStatus
+        }
+        </script>
 </head>
 
-<body>
-    <h1>This is my web app!</h1>
+<body onload="getStatus();">
+    <h1>This is my web app! Current Status: <span id="authStatus"></span> </h1>
 </body>
+
