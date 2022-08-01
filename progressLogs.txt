@@ -13,4 +13,9 @@ TODO:
     -best way to print auth status on html ? 
     -How to invoke js and print it in HTML ? 
     -Best way to print info from node js to fronend.
-    -maybe clean file structure? (optional, need beta first)
+    -maybe clean file structure? (optional, need results first)
+
+===Aug 1, 2022===
+
+Clean out TODO
+Add debug profiles
