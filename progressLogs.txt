@@ -6,3 +6,11 @@ To browse: gcloud app browse
 Adding user auth -> used express-openid using auth0
 
 reconfigued auth0 callback URLs, login URL
+
+TODO: 
+    -figure out passing auth status to html 
+    -make auth req fns
+    -best way to print auth status on html ? 
+    -How to invoke js and print it in HTML ? 
+    -Best way to print info from node js to fronend.
+
