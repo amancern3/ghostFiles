@@ -19,3 +19,12 @@ TODO:
 
 Clean out TODO
 Add debug profiles
+
+== Sep 1, 2022==
+
+Been a whole month since last update.
+Dissapointed. 
+
+added naive nav bar
+
+used html5 project as reference, will read code properly. 
