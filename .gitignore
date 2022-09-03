@@ -106,3 +106,5 @@ dist
 node_modules/.package-lock.json
 remote-debug-profile/
 node_modules/.package-lock.json
+
+.DS_Store
