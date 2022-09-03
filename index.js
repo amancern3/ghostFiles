@@ -20,13 +20,7 @@ const config = {
 app.use(auth(config))
 
 app.get('/', async (req, res) => {
-    res.send(await readFile('./home.html', 'utf-8'))
-    //res.send(authStatus(req,res))
+    res.send(await readFile('./index.html', 'utf-8'))
 })
-
-function authStatus(req, res) {
-    var rtn = res.send(req.oidc.isAuthenticated()? 'Logged In' : 'Logged Out')
-    return rtn
-}
 
 app.listen(process.env.PORT || 3000, () => console.log('App available on http://localhost:3000'))

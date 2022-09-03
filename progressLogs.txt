@@ -36,3 +36,6 @@ Added: navbar, header, footer, social icons
 next: webpage content
 
 feel better, more progress for sure. 
+
+
+APP DOES NOT DEPLOY WELL ON GCLOUD !!! FIX 
