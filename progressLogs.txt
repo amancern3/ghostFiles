@@ -28,3 +28,11 @@ Dissapointed.
 added naive nav bar
 
 used html5 project as reference, will read code properly. 
+
+
+== Sep 3, 2022==
+
+Added: navbar, header, footer, social icons
+next: webpage content
+
+feel better, more progress for sure. 
