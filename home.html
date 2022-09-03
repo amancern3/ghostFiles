@@ -4,7 +4,7 @@
     <title>ghostFiles</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-with, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assests/css/main.css" />
+    <link rel="stylesheet" href="   css/home.css" />
     <script type="text/javascript" src="index.js">
         function getStatus() {
             var authStatus = $(window).onload(function () {
@@ -15,8 +15,8 @@
         </script>
 </head>
 
-<body onload="getStatus();">
-
+<body onload="getStatus();" class="is-preloaded">
+    
     <!-- Header -->
     <div id="header">
 
@@ -42,9 +42,20 @@
                 </nav>
         </div>
 
+        <div class="bottom">
+
+                <!-- Social Icons -->
+                <ul class="icons">
+                    <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                    <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+                    <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                </ul>
+
+        </div>
+
     </div>
 
-
-    <h1>This is my web app! Current Status: <span id="authStatus"></span> </h1>
 </body>
 
