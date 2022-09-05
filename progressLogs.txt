@@ -1,0 +1,41 @@
+===July 31, 2022===
+
+Created init web app delployed on gcloud
+To browse: gcloud app browse
+
+Adding user auth -> used express-openid using auth0
+
+reconfigued auth0 callback URLs, login URL
+
+TODO: 
+    -figure out passing auth status to html 
+    -make auth req fns
+    -best way to print auth status on html ? 
+    -How to invoke js and print it in HTML ? 
+    -Best way to print info from node js to fronend.
+    -maybe clean file structure? (optional, need results first)
+
+===Aug 1, 2022===
+
+Clean out TODO
+Add debug profiles
+
+== Sep 1, 2022==
+
+Been a whole month since last update.
+Dissapointed. 
+
+added naive nav bar
+
+used html5 project as reference, will read code properly. 
+
+
+== Sep 3, 2022==
+
+Added: navbar, header, footer, social icons
+next: webpage content
+
+feel better, more progress for sure. 
+
+
+APP DOES NOT DEPLOY WELL ON GCLOUD !!! FIX 
