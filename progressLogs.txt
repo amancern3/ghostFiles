@@ -45,3 +45,5 @@ APP DOES NOT DEPLOY WELL ON GCLOUD !!! FIX
 might rename to "THE DUMP"
 
 need to figure out how to send images on gcloud html req
+
+created new branch: gcloud-fix to nail down sending and rendering files/data/images. 
