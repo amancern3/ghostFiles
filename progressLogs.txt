@@ -46,4 +46,11 @@ might rename to "THE DUMP"
 
 need to figure out how to send images on gcloud html req
 
-created new branch: gcloud-fix to nail down sending and rendering files/data/images. 
+created new branch: gcloud-fix to nail down sending and rendering files/data/images.
+
+GETTING IMAGE TO DISPLAY HAS BEEN A PAIN. 
+
+I believe it is not a gcloud thing ? Maybe being to route and upload the picture might be it. 
+Since the directory in the website doesn't seem to exit. Need to figure out how to debug. 
+
+Is this a node problem ? I don't think so, the img renders locally. -> might be a gcloud thing. 
