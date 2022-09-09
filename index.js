@@ -19,7 +19,11 @@ const config = {
 
 app.use(auth(config))
 
+app.use(express.static(__dirname + '/assets/css'))
+app.use(express.static(__dirname + '/assets/images'))
+
 app.get('/', async (req, res) => {
+    console.log("Rendering index html......")
     res.send(await readFile('./index.html', 'utf-8'))
 })
 

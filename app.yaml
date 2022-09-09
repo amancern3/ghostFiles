@@ -1,1 +1,22 @@
 runtime: nodejs12
+
+handlers:
+- url: /assets/css
+  static_dir: assets/css
+
+- url: /assets/images
+  static_dir: assets/images
+
+# All URLs ending in .gif .png or .jpg are treated as paths to
+# static files in the static/ directory. The URL pattern is a
+# regular expression, with a grouping that is inserted into the
+# path to the file.
+
+#- url: /images/(.*\.(gif|png|jpg))$
+  #static_files: images/\1
+  #upload: images/.*\.(gif|png|jpg)$
+
+
+
+- url: /.*
+  script: index.js
