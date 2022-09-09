@@ -19,4 +19,4 @@ handlers:
 
 
 - url: /.*
-  script: index.js
+  script: assets/js/index.js
