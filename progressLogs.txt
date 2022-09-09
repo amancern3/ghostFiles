@@ -66,6 +66,6 @@ Yep... for some reason my entire dir was not uploading, found it through the 'So
 Was easy enough from there.
 
 TO DO: 
-    -Clean file structure
-    -Rename project
+    -Clean file structure 
+    -Rename project (X) -- too large scale of a change rn 
     -Clean code at all ? 
