@@ -19,8 +19,8 @@ const config = {
 
 app.use(auth(config))
 
-app.use(express.static(__dirname + '/css'))
-app.use(express.static(__dirname + '/images'))
+app.use(express.static(__dirname + '/assets/css'))
+app.use(express.static(__dirname + '/assets/images'))
 
 app.get('/', async (req, res) => {
     console.log("Rendering index html......")
