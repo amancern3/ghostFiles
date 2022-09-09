@@ -1,4 +1,4 @@
-===July 31, 2022===
+===July 31, 2022 ===
 
 Created init web app delployed on gcloud
 To browse: gcloud app browse
@@ -15,12 +15,12 @@ TODO:
     -Best way to print info from node js to fronend.
     -maybe clean file structure? (optional, need results first)
 
-===Aug 1, 2022===
+===Aug 1, 2022 ===
 
 Clean out TODO
 Add debug profiles
 
-== Sep 1, 2022==
+== Sep 1, 2022 ==
 
 Been a whole month since last update.
 Dissapointed. 
@@ -30,7 +30,7 @@ added naive nav bar
 used html5 project as reference, will read code properly. 
 
 
-== Sep 3, 2022==
+== Sep 3, 2022 ==
 
 Added: navbar, header, footer, social icons
 next: webpage content
@@ -40,7 +40,7 @@ feel better, more progress for sure.
 
 APP DOES NOT DEPLOY WELL ON GCLOUD !!! FIX 
 
-== Sept 5, 2022==
+== Sept 5, 2022 ==
 
 might rename to "THE DUMP"
 
@@ -54,3 +54,18 @@ I believe it is not a gcloud thing ? Maybe being to route and upload the picture
 Since the directory in the website doesn't seem to exit. Need to figure out how to debug. 
 
 Is this a node problem ? I don't think so, the img renders locally. -> might be a gcloud thing. 
+
+
+== Sep 6, 2022 ==
+
+The problem: Assets were not uploading 
+
+Sol: upload Assets. 
+
+Yep... for some reason my entire dir was not uploading, found it through the 'Source' tab in the dev brave-console. 
+Was easy enough from there.
+
+TO DO: 
+    -Clean file structure
+    -Rename project
+    -Clean code at all ? 
