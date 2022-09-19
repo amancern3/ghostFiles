@@ -2,8 +2,10 @@ console.log("hello world");
 
 const express = require('express')
 const app = express()
+const path = require('path')
 
-require('dotenv').config()
+require('dotenv').config({ path: path.resolve(__dirname, '/Users/bitterfq/ghostFiles/ghostFiles/.env') })
+
 const {readFile} = require('fs').promises
 
 const { auth } = require('express-openid-connect');

@@ -88,4 +88,4 @@ Might make a single webpage, with blog date entries, ordered list with contact f
 
 Webpage idea: crimewatch for city per custom mile radius. (&&) could be just daily updates for the city in question and send an SMS ? 
 
-gcloud-fix is the only stable branch !!
+gcloud-fix is the only stable branch
