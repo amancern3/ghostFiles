@@ -66,6 +66,24 @@ Yep... for some reason my entire dir was not uploading, found it through the 'So
 Was easy enough from there.
 
 TO DO: 
-    -Clean file structure 
+    -Clean file structure (moving all static files to assets) 
     -Rename project (X) -- too large scale of a change rn 
     -Clean code at all ? 
+
+    File structure:- move ever ext to its own dir. 
+
+
+Made new branch to clean-up file struct, it broke the gcloud deployment
+Also locally, need to figure out why 'live' server works on html but not js,
+
+Also what is the order of execution ?? If that is found out, and how to debug on dev console
+it will be easier to debug and fix the restruct of files 
+
+== Sep 18, 2022 == 
+
+Fixing gcloud deployment 
+
+
+Might make a single webpage, with blog date entries, ordered list with contact funtionality 
+
+Webpage idea: crimewatch for city per custom mile radius. (&&) could be just daily updates for the city in question and send an SMS ? 
